@@ -1,4 +1,7 @@
 ---
+note-status: brewed
+epistemic-status: High confidence about my own experience, and moderately high confidence that it generalizes to others
+epistemic-effort: Low, this content was already in the template
 ---
 
 Move your body every day. Benefits include:

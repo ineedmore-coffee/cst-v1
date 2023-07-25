@@ -23,7 +23,7 @@ body {
   }
 }
 
-time {
+time, span.status-info {
   display: block;
   color: $color-subtext;
   margin: 0.5em 0 1em;
