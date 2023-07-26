@@ -1,0 +1,9 @@
+<!-- Displays a list of all notes of a certain status, using the page id to determine which status to look for -->
+<ul>
+  {% assign tagged_notes = site.notes | where: "note-status", page.id | sort: "last_modified_at_timestamp" | reverse %}
+  {% for note in tagged_notes %}
+    <li>
+      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

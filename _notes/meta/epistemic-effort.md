@@ -1,4 +1,4 @@
 ---
-title: Epistemic Effort
+title: "Metadata: Epistemic Effort"
 permalink: /epistemic-effort
 ---

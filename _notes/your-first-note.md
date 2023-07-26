@@ -1,5 +1,8 @@
 ---
 title: Your first seed
+note-status: brewed
+epistemic-status: Not applicable, I didn't write this note.
+epistemic-effort: None, I didn't write this note.
 ---
 
 ### Welcome!
