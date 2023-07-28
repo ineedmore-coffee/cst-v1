@@ -1,5 +1,5 @@
 ---
-title: "Note Status"
+title: "Metadata: Note Status"
 permalink: /note-status
 id: note-status
 ---
