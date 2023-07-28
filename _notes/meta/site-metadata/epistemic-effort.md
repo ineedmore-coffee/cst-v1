@@ -1,5 +1,5 @@
 ---
-title: "Metadata: Epistemic Effort"
+title: "Epistemic Effort"
 permalink: /epistemic-effort
 id: epistemic-effort
 ---
