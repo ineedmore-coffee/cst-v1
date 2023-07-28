@@ -12,7 +12,7 @@ permalink: /
 
 You'll often find me here, hunkered down typing away at some odd thing in the morning hours. As you walk up, you'll notice a few things. I'll usually have something to drink, typically coffee, and sometimes a snack too. I'll have my laptop out, as well as some other [[devices]], a [[notebook]] or two that's relevant to the topic at hand, and my trusty [[legal pad]] to scratch notes on. You'll also notice that there are a number of [[napkins]] strewn around the table, with a variety of diagrams and drawings on them.
 
-**The Coffee Shop Table is my public in-between space**, a place where I can aggregate knowledge about a variety of topics.
+**The Coffee Shop Table is my public in-between space**, a place where I can aggregate knowledge about a variety of topics. **This site is currently a work in progress, as I work on developing the site's structure and refining it's design**
 
 <strong>Recently updated notes</strong>
 
