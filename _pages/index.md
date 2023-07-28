@@ -7,7 +7,7 @@ permalink: /
 
 <br/>
 ![Hand drawn sketch on napkin depicting a table in a coffee shop](/assets/index/coffee-shop-table-napkin.png)
-<span style="display: block; text-align: center"><small><i>Drawing inspired by <a href="https://blackhandcoffeeco.com/">Black Hand Coffee</a> in Richmond, VA</i></small></span>
+<span class="image-caption">Drawing inspired by <a href="https://blackhandcoffeeco.com/">Black Hand Coffee</a> in Richmond, VA</span>
 <br/>
 
 You'll often find me here, hunkered down typing away at some odd thing in the morning hours. As you walk up, you'll notice a few things. I'll usually have something to drink, typically coffee, and sometimes a snack too. I'll have my laptop out, as well as some other [[devices]], a [[notebook]] or two that's relevant to the topic at hand, and my trusty [[legal pad]] to scratch notes on. You'll also notice that there are a number of [[napkins]] strewn around the table, with a variety of diagrams and drawings on them.

@@ -2,7 +2,7 @@
 title: "Site Design: Napkin Drawings"
 permalink: /napkins
 id: napkins
-status: brewing
+note-status: warm-brewing
 epistemic-status: Moderately confident in my own experiences, but I don't know that everyone should ditch their sketchbooks and start diagramming on napkins.
 epistemic-effort: Low, I'm basing my thoughts on my own experiences rather than any reading supporting my claims here.
 ---

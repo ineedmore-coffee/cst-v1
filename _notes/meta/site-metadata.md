@@ -1,6 +1,7 @@
 ---
 title: "Site Metadata"
 permalink: /site-metadata
+note-status: brewed
 id: site-metadata
 ---
 
@@ -11,5 +12,7 @@ At the moment, these metadata points are:
 * When the note was [[last-updated|last updated]] (based on data from Git)
 * The note's [[epistemic status|epistemic-status]]
 * My [[epistemic effort|epistemic-effort]] in creating the note
+
+When building the site, they get added to each page via the `notes_sidebar` include, with the [[
 
 **These metadata points aren't always present on every page.** For example, the page you're reading right now doesn't have an epistemic effort, epistemic status, or note status. This is because these metadata points aren't always relevant, like in the case of this file, where it's describing the site itself rather than something I've thought about or researched.

@@ -144,3 +144,11 @@ code {
   color: #ccc;
   cursor: help;
 }
+
+span.image-caption {
+	display: block;
+	text-align: center;
+	font-size: small;
+	font-style: italic;
+	color: $color-subtext;
+}
