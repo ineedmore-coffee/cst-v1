@@ -20,6 +20,7 @@ relative_permalinks: false
 
 plugins:
   - jekyll-last-modified-at
+  - jekyll-sitemap
 
 sass:
   sass_dir:          _sass
@@ -31,11 +32,23 @@ collections:
     permalink: /:slug
 
 defaults:
+  # By default, all files will be displayed with the default layout if unspecified
   - scope:
       path: "**/*"
     values:
       layout: "default"
+  # By default, all files in _notes should have the note layout
   - scope:
       path: "_notes/**/*.md"
     values:
       layout: "note"
+  # By default, all png files shouldn't be included in the sitemap
+  - scope:
+      path: "assets/**/*.png"
+    values:
+      sitemap: false
+  # By default, all pdf files shouldn't be included in the sitemap
+  - scope:
+      path: "assets/**/*.pdf"
+    values:
+      sitemap: false
