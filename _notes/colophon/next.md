@@ -14,7 +14,6 @@ With that out of the way, I want to work on:
         - [ ] Look at and create some HTML components I can use to add more variety into the posts (for example, these [simple HTML/CSS notice boxes](https://bt.ht/notice/))
     - [ ] Fold the pages in site-metadata into one bigger page, with the appropriate redirects in place[^2]
         - [ ] Modify the sidebar to just link to the metadata page
-- [ ] Establishing the Playbooks section, a section for documentation on how my sites are run
     - [ ] Creating documentation for the site, on the site [^3]
         - [ ] A master page about the stack
         - [ ] A more in-depth page about jekyll
@@ -22,6 +21,8 @@ With that out of the way, I want to work on:
         - [ ] A sitemap describing what directories house what
         - [ ] A list of rules for site organization (potentially implement a folder depth limit to encourage consolidation)
         - [ ] Maybe a page with kramdown resources and all of what's possible to do in this markdown envionment
+- [ ] Create a "snippets" section for entries on various neologisms
+- [ ] Create a "stacks" section with my preferred setups for computer, note-taking, sites, etc.
 
 ---
 
