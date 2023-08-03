@@ -1,7 +1,5 @@
 ---
-title: "Metadata: Epistemic Effort"
-permalink: /epistemic-effort
-id: epistemic-effort
+title: "Epistemic Effort"
 note-status: cold-brewing
 epistemic-status: "Confident that I understand the concept and it's purpose."
 epistemic-effort: "Somewhat low, I've largely relied on the linked resources for all of my thoughts on the matter"

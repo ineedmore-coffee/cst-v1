@@ -4,7 +4,7 @@
 <!-- Display note status if present in front matter -->
 <span class="status-info">
   {% if page.note-status %}
-  <h5><a class="internal-link" href="{{ site.baseurl }}/note-status">Note Status</a>:</h5>
+  <h5><a class="internal-link" href="{{ site.baseurl }}/site-metadata#note-status">Note Status</a>:</h5>
   <a class="internal-link" href="{{ page.baseurl }}/note-status/{{ page.note-status }}">{{ page.note-status }}</a>
   {% endif %}
 </span>
@@ -12,7 +12,7 @@
  <!-- Display last update date -->
 <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
   {% if page.type != 'pages' %}
-  <h5 style="margin-top: 0em; margin-bottom: 0em"><a class="internal-link" href="{{ site.baseurl }}/last-updated">Last Updated</a>:</h5>
+  <h5 style="margin-top: 0em; margin-bottom: 0em"><a class="internal-link" href="{{ site.baseurl }}/site-metadata#last-updated-date">Last Updated:</a></h5>
   {{ page.last_modified_at | date: "%B %-d, %Y" }}
   {% endif %}
 </time>
@@ -20,7 +20,7 @@
 <!-- Display epistemic status if present in front matter -->
 <span class="status-info">
   {% if page.epistemic-status %}
-  <h5 style="margin-top: 0em; margin-bottom: 0em"><a class="internal-link" href="{{ site.baseurl }}/epistemic-status">Epistemic Status</a>:</h5>
+  <h5 style="margin-top: 0em; margin-bottom: 0em"><a class="internal-link" href="{{ site.baseurl }}/site-metadata#epistemic-status-and-effort">Epistemic Status</a>:</h5>
   {{ page.epistemic-status }}
   {% endif %}
 </span>
@@ -28,7 +28,7 @@
 <!-- Display epistemic effort if present in front matter -->
 <span class="status-info">
   {% if page.epistemic-effort %}
-  <h5 style="margin-top: 0em; margin-bottom: 0em"><a class="internal-link" href="{{ site.baseurl }}/epistemic-effort">Epistemic Effort</a>:</h5>
+  <h5 style="margin-top: 0em; margin-bottom: 0em"><a class="internal-link" href="{{ site.baseurl }}/site-metadata#epistemic-status-and-effort">Epistemic Effort</a>:</h5>
   {{ page.epistemic-effort }}
   {% endif %}
 </span>

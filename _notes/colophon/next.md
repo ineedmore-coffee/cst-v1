@@ -7,11 +7,10 @@ This site is currently at a stage where it's rapidly being worked on. While I ev
 With that out of the way, I want to work on:
 
 - [ ] Finishing the colophon section
-    - [ ] Create a master site-design page[^2]
-        - [ ] Fold the napkin page into the site design page and add a redirect
-        - [ ] Redirect whatever else would have gone in separate files in the site-design folder
-        - [ ] Look at and create some HTML components I can use to add more variety into the posts (for example, these [simple HTML/CSS notice boxes](https://bt.ht/notice/))
-    - [ ] Fold the pages in site-metadata into one bigger page, with the appropriate redirects in place[^2]
+    - [x] Create a master site-design page[^2]
+        - [x] Fold the napkin page into the site design page and add a redirect
+        - [ ] Look at and create some HTML components I can use to add more variety into the posts (for example, these [simple HTML/CSS notice boxes](https://bt.ht/notice/)). Implement them as include (can use variables to pass data in).
+    - [x] Fold the pages in site-metadata into one bigger page[^2]
         - [ ] Modify the sidebar to just link to the metadata page
     - [ ] Creating documentation for the site, on the site [^3]
         - [ ] A master page about the stack
