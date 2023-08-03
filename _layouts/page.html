@@ -8,6 +8,11 @@ layout: default
   </div>
 
   <content>
+    <!-- Adds a link to jump down to the table of contents. if enabled -->
+      {% include tocjump.html %}
+    <!-- This is where the content of the page file gets displayed -->
     {{ content }}
+    <!-- Adds a table of contents right under the content if enabled -->
+    {% include toc.html %}
   </content>
 </article>

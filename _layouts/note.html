@@ -10,7 +10,12 @@ layout: default
 
   <div id="notes-entry-container">
     <content>
+      <!-- Adds a link to jump down to the table of contents. if enabled -->
+      {% include tocjump.html %}
+      <!-- This is where the content of the note file gets displayed -->
       {{ content }}
+      <!-- Adds a table of contents right under the content if enabled -->
+      {% include toc.html %}
     </content>
 
     <!-- Content displayed in the sidebar. This gets displayed at the bottom of the screen with a narrow screen/window -->

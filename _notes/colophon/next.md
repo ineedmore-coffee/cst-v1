@@ -6,7 +6,6 @@ This site is currently at a stage where it's rapidly being worked on. While I ev
 
 With that out of the way, I want to work on:
 
-- [ ] Adding a jekyll plugin for page redirection, likely [this one](https://github.com/jekyll/jekyll-redirect-from)[^1]
 - [ ] Finishing the colophon section
     - [ ] Create a master site-design page[^2]
         - [ ] Fold the napkin page into the site design page and add a redirect
@@ -26,6 +25,5 @@ With that out of the way, I want to work on:
 
 ---
 
-[^1]: I need to make sure this doesn't break bidirectional linking or link previewing. If it does, I think I'll still do the bigger pages anyways and then just try to link to header IDs, though it will be more effort for future linking.
 [^2]: When making these bigger pages, make sure they have a table of contents.
 [^3]: Part of a broader goal I want to look at where every site I have up (and I mean all of them) have documentation, and more importantly are self-documented. An ordinary reader should be able to find a link somewhere on the site that takes them to a page that gives them every single piece of information required to get that site built from my source code.

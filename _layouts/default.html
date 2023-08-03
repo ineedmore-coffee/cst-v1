@@ -4,7 +4,10 @@
   <body>
     <nav>{% include nav.html %}</nav>
     <div class="wrapper">
-      <main>{{ content }}</main>
+      <main>
+        <!-- Just add a table of contents right over the content if enabled -->
+        {{ content }}
+      </main>
       <footer>{% include footer.html %}</footer>
     </div>
 

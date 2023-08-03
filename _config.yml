@@ -19,8 +19,9 @@ permalink:           pretty
 relative_permalinks: false
 
 plugins:
-  - jekyll-last-modified-at
-  - jekyll-sitemap
+  - jekyll-last-modified-at # Allows for the git-based "last modified dates"
+  - jekyll-sitemap # Creates a sitemap for search engine indexing
+  - jekyll-toc # Allows easy addition of a table of contents
 
 sass:
   sass_dir:          _sass
