@@ -14,7 +14,7 @@ At the moment, these metadata points are:
 * The note's epistemic status
 * My epistemic effort in creating the note
 
-When building the site, they get added to each page via the `notes_sidebar` include. Each [[note status]]'s individual page also has a list of notes with the same status, generated using the `tagged_note_list` include.
+When building the site, they get added to each page via the `notes_sidebar` include. Each [note status](#note-status)'s individual page also has a list of notes with the same status, generated using the `tagged_note_list` include.
 
 **These metadata points aren't always present on every page.** For example, the page you're reading right now doesn't have an epistemic effort or epistemic status. This is because these metadata points aren't always relevant, like in the case of this file, where it's describing the site itself rather than something I've thought about or researched.
 
