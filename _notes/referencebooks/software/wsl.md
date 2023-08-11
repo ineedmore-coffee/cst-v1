@@ -22,3 +22,7 @@ To use it:
 1. Rename `WslShortcut.exe` to desired command name, e.g. `git.exe`, `node.exe`, `ls.exe` etc. You can make a renamed copy for every command you want.
 2. Place this executable(s) to some PATH directory ( `Windows`, `System32` or make your own)
 3. Now you can run it directly in cmd (e.g. `git status`, `node -v`, `ls -la`), and VSCode should find things like git or node automatically.
+
+### wslu
+
+[wslu](https://github.com/wslutilities/wslu) is a great set of utilities for WSL, including things like creating desktop shortcuts, opening links from inside WSL on your default Windows browser automatically, and more.
