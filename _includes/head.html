@@ -1,25 +1,36 @@
 <head>
-
+  <!-- Page charset -->
   <meta charset="UTF-8">
 
+  <!-- Sets canonical page link -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
+  <!-- Sets viewport size -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Page Description -->
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
 
+  <!-- Open Graph Site Name -->
   <meta property="og:site_name" content="{{ site.title }}">
 
+  <!-- Favicon -->
   <link rel="icon" type="image/ico" href="{{ site.baseurl }}/assets/favicon.ico">
 
+  <!-- Links CSS Stylesheet -->
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
 
+  <!-- Privacy-respecting analytics with GoatCounter -->
+  <script data-goatcounter="https://cst.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <!-- Open Graph Page Description -->
   {% if page.excerpt %}
   <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}"/>
   {% else %}
   <meta property="og:description" content="{{ site.title | strip_html | strip_newlines | truncate: 160 }}"/>
   {% endif %}
 
+  <!-- Open Graph Page Title and Type -->
   {% if page.title %}
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="article">
@@ -28,17 +39,21 @@
   <meta property="og:type" content="website">
   {% endif %}
 
+  <!-- Open Graph Publish Date and Author -->
   {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   <meta property="article:author" content="{{ site.url }}/">
   {% endif %}
 
+  <!-- Open Graph Page URL -->
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 
+  <!-- Open Graph Page Image -->
   {% if page.image %}
   <meta property="og:image" content="{{ site.url }}{{ page.image }}">
   {% endif %}
 
+  <!-- Page Title -->
   <title>
     {% if page.id == "home" %}
       {{ site.title }}
