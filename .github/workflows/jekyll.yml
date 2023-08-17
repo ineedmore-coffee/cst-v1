@@ -42,4 +42,4 @@ jobs:
           bundler_ver: '>=0'         # Default is latest bundler version
           cname: 'cst.ineedmore.coffee' # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
-          pre_build_commands: 'gem update bundler && bundle install'     # Installing additional dependencies (Arch Linux)
+          pre_build_commands: ''     # Installing additional dependencies (Arch Linux)
