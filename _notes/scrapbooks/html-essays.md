@@ -14,6 +14,7 @@ A single page website, usually hosted on a dedicated domain or subdomain, that s
 - ["tiny internets"](https://tiny-inter.net/)
 - [Bradley Taunt's "Better Search Results"](https://search.bt.ht/)
 - [Bradley Taunt's "Blog Anonymously"](https://anon.bt.ht/)
+- [The Yesterweb](https://yesterweb.org/)
 - ["Towards a Digital Pluriverse"](https://pluriverse.world/)
 - ["Constitutions of Web3"](https://constitutions.metagov.org)
 
