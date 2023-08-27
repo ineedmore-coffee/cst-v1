@@ -51,9 +51,11 @@ Then, in VSCodium/Code-OSS, navigate to the extensions tab. On the top right of 
 
 ### Fix GNOME Dash Icon When Running In Distrobox on Wayland
 
-First, use GNOME's looking glass to find the `wmclass`. Last I checked this was `code-url-handler`, but to find it out simply press `alt`+`f2` to get the run prompt, type `lg` for the looking glass, then navigate to **Windows** and find an open VSCode window. The `wmclass` should be listed under the name of the application.
+See [[Distrobox]] for instructions on how to fix [[GNOME|gnome-desktop]] Dash icons of exported applications. 
 
-Then, navigate to the exported `.desktop` file for VSCode (usually located in `~/.local/share/applications`). Edit both the `containername-code.desktop` and `containername-code-url-handler.desktop` so that the `StartupWMClass` is the `wmclass` we found earlier
+Notes:
+- Remember to edit the `wmclass` in both `containername-code.desktop` and `containername-code-url-handler.desktop`
+- Last I checked, the correct `wmclass` for both desktop files is `code-url-handler`
 
 ### Generating HTML Boilerplate
 

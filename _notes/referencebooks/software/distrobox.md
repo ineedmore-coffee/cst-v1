@@ -36,3 +36,11 @@ For convenience, I usually create a [[Fish]] alias to easily open my containers,
 
 I also use the banner art instructions found in [[Fish Shell]] to add banners for each container. This way, big block letters clearly tell me which container has been opened. This is especially useful in places like integrated terminals in IDEs.
 
+### Fix GNOME Dash Icon for Exported Application
+
+When running exported apps in Distrobox on [[GNOME|gnome-desktop]] Wayland, the running application icon sometimes don't "merge" with the launcher icon. This is because the `wmclass` of the window is different from what is associated with the exported `.desktop` file. To fix this, we need to find the `wmclass` of the window, then edit the `.desktop` file to have the same `wmclass`
+
+First, use GNOME's looking glass to find the `wmclass`. Press `alt`+`f2` to get the run prompt, type `lg` for the looking glass, then navigate to **Windows** and find an open window of the application. The `wmclass` should be listed under the name of the application.
+
+Then, navigate to the exported `.desktop` file for the application (usually located in `~/.local/share/applications`). Edit the `containername-application.desktop` file so that the `StartupWMClass` is the `wmclass` we found earlier.
+
