@@ -51,11 +51,11 @@ Then, in VSCodium/Code-OSS, navigate to the extensions tab. On the top right of 
 
 ### Fix GNOME Dash Icon When Running In Distrobox on Wayland
 
-See [[Distrobox]] for instructions on how to fix [[GNOME|gnome-desktop]] Dash icons of exported applications. 
+See [[Distrobox#fix-gnome-dash-icon-for-exported-application]] for instructions on how to fix [[GNOME|gnome-desktop]] Dash icons of exported applications. 
 
 Notes:
-- Remember to edit the `wmclass` in both `containername-code.desktop` and `containername-code-url-handler.desktop`
-- Last I checked, the correct `wmclass` for both desktop files is `code-url-handler`
+- Remember to edit the `StartupWMClass` in both `containername-code.desktop` and `containername-code-url-handler.desktop`
+- Last I checked, the correct `StartupWMClass` for both desktop files is `code-url-handler`
 
 ### Generating HTML Boilerplate
 
