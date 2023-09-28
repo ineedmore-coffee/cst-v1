@@ -4,7 +4,7 @@ title: "Windows 11"
 
 *The latest release of the most popular desktop operating system, succeeding Windows 10 in Fall 2021. Has artificially high system requirements, though these can be bypassed pretty easily.*
 
-I don't personally use Windows for any of my primary computing needs anymore, but I do always keep a "sacrificial Windows machine" around.
+I don't personally use Windows for much of my primary computing needs anymore, but I do always keep a "sacrificial Windows machine" around.
 
 ## Useful Software
 
